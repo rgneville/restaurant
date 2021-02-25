@@ -1,5 +1,6 @@
 import home from "./home";
-import menu from './menu.js';
+import menu from './menu';
+import about from "./about"
 
 function header () {
 const hdr = document.querySelector('header');
@@ -27,8 +28,11 @@ hdrContainer.appendChild(menuLink);
 
 const aboutLink = document.createElement('div');
 aboutLink.classList.add("header-link");
-aboutLink.id = "aboutlink";
 aboutLink.innerHTML = "about";
+aboutLink.addEventListener('click',() => {
+    clearContent();
+    about();
+});
 hdrContainer.appendChild(aboutLink);
 
 hdr.appendChild(hdrContainer);
@@ -38,6 +42,7 @@ return
 function clearContent () {
     const cntnr = document.querySelector('#content');
     cntnr.innerHTML = "";
+    return
 }
 
 export default header;

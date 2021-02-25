@@ -36,3 +36,14 @@ img {
 .menu-item {
     padding: 15px;
 }
+
+#github-logo:hover{
+    color: red;
+}
+
+footer{
+    font-size: 8px;
+    color:rgba(128, 128, 128, 0.65);
+    justify-content: left;
+    display: flex;
+}
