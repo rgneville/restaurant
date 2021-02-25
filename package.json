@@ -4,7 +4,7 @@
   "description": "A vanilla JS restaurant website",
   "main": "index.js",
   "scripts": {
-    "deploy": "ghpages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
