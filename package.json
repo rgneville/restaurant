@@ -4,7 +4,7 @@
   "description": "A vanilla JS restaurant website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "ghpages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/rgneville/restaurant/issues"
   },
-  "homepage": "https://github.com/rgneville/restaurant#readme",
+  "homepage": "https://rgneville.github.io/restaurant",
   "devDependencies": {
     "css-loader": "^5.0.2",
     "style-loader": "^2.0.0",
